@@ -4,7 +4,7 @@ import { Dialog } from '@headlessui/react'
 
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'Calender', href: '#' },
+  { name: 'Calender', href: '/calender' },
   { name: 'Profile', href: '#' },
   { name: 'VDot', href: '/vdot' },
 ]

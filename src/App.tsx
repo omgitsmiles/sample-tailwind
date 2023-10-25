@@ -1,6 +1,6 @@
-import React from "react";
 import Landing from './Landing'
 import Vdot from "./Vdot";
+import Calender from './Calender';
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Landing />}/>
         <Route path='/vdot' element={<Vdot />}/>
+        <Route path='/calender' element={<Calender />} />
       </Routes>
     </>
   )
